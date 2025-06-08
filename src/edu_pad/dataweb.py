@@ -8,7 +8,7 @@ import datetime
 
 class DataWeb:
     def __init__(self):
-        self.url = "https://es.finance.yahoo.com/quote/DOLA-USD/history/"
+        self.url = "https://es.finance.yahoo.com/quote/GOOG/history"
         self.indicator_locations = {
             "DOLA-USD": {
                 "name": "Dólar/Peso", 
