@@ -9,7 +9,7 @@ import os
 
 def main():
 
-    df = pd.read_csv("src/edu_piv/static/data/data_extractor.csv")
+    df = pd.read_csv("src/edu_piv/static/csv/data_extractor.csv")
     columnas = ["abrir","max","min","cerrar","cierre_ajustado","volumen","indicador"]
     df_2 = df[columnas]
     profile = ProfileReport(df_2, title="Dashboard Indicador Dolar")
